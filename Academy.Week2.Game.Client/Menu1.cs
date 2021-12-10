@@ -364,6 +364,7 @@ namespace Academy.Week2.Game.Client
 
         private static bool TurnoMostro(Mostro nemico, Eroe eroe)
         {
+            //Console.BackgroundColor = ConsoleColor.Red;
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Turno del mostro");
             Arma arma = mainBL.GetArmaById(nemico.IdArma);
@@ -382,7 +383,7 @@ namespace Academy.Week2.Game.Client
 
             do
             {
-
+                //Console.BackgroundColor = ConsoleColor.Blue;
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Turno dell'eroe");
                 
